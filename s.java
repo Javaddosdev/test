@@ -10,7 +10,7 @@ Author :- N4VIYA98
 public class DdosAttack {
 
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 100; i++) {
             DdosThread thread = new DdosThread();
             thread.start();
         }
